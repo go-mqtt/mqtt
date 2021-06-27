@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/pascaldekloe/mqtt"
-	"github.com/pascaldekloe/mqtt/mqtttest"
+	"github.com/go-mqtt/mqtt"
+	"github.com/go-mqtt/mqtt/mqtttest"
 )
 
 // Publish is a method from mqtt.Client.

@@ -3,8 +3,8 @@ package mqtttest_test
 import (
 	"testing"
 
-	"github.com/pascaldekloe/mqtt"
-	"github.com/pascaldekloe/mqtt/mqtttest"
+	"github.com/go-mqtt/mqtt"
+	"github.com/go-mqtt/mqtt/mqtttest"
 )
 
 // Signatures

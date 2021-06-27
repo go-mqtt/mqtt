@@ -1,4 +1,4 @@
-# MQTT🤖
+# Go MQTT
 
 ## About
 
@@ -13,8 +13,7 @@ gift to the open-source community.
 This is free and unencumbered software released into the
 [public domain](https://creativecommons.org/publicdomain/zero/1.0).
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/pascaldekloe/mqtt.svg)](https://pkg.go.dev/github.com/pascaldekloe/mqtt)
-[![Build Status](https://travis-ci.org/pascaldekloe/mqtt.svg?branch=master)](https://travis-ci.org/pascaldekloe/mqtt)
+[![Go Reference](https://pkg.go.dev/badge/github.com/go-mqtt/mqtt.svg)](https://pkg.go.dev/github.com/go-mqtt/mqtt)
 
 
 ## Introduction
@@ -53,14 +52,14 @@ for {
 }
 ```
 
-The [examples](https://pkg.go.dev/github.com/pascaldekloe/mqtt#pkg-examples)
+The [examples](https://pkg.go.dev/github.com/go-mqtt/mqtt#pkg-examples)
 from the package documentation provide a good start with detailed configuration
 options.
 
 
 ## Command-Line Client
 
-Run `go install github.com/pascaldekloe/mqtt/cmd/mqttc` to build the binary.
+Run `go install github.com/go-mqtt/mqtt/cmd/mqttc` to build the binary.
 
 ```
 NAME
@@ -140,7 +139,7 @@ EXAMPLES
 		mqttc -tls q1.example.com:8883 || echo "exit $?"
 
 BUGS
-	Report bugs at <https://github.com/pascaldekloe/mqtt/issues>.
+	Report bugs at <https://github.com/go-mqtt/mqtt/issues>.
 
 SEE ALSO
 	mosquitto_pub(1)
@@ -158,6 +157,3 @@ may be added at some point in time.
 There are no plans to support protocol version 5. Version 3 is lean and well
 suited for IOT. The additions in version 5 may be more of a fit for backend
 computing.
-
-See the [Broker wiki](https://github.com/pascaldekloe/mqtt/wiki/Brokers) for
-implementation specifics.

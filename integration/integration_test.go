@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pascaldekloe/mqtt"
+	"github.com/go-mqtt/mqtt"
 )
 
 // BatchSize is a reasonable number of messages which should not cause any of

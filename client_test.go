@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pascaldekloe/mqtt"
-	"github.com/pascaldekloe/mqtt/mqtttest"
+	"github.com/go-mqtt/mqtt"
+	"github.com/go-mqtt/mqtt/mqtttest"
 )
 
 // TestClient reads the client with assertions and timeouts.

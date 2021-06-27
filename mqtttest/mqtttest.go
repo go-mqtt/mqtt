@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pascaldekloe/mqtt"
+	"github.com/go-mqtt/mqtt"
 )
 
 // Transfer defines a message exchange.

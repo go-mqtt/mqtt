@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/pascaldekloe/mqtt"
+	"github.com/go-mqtt/mqtt"
 )
 
 const messageMax = 256 * 1024 * 1024
